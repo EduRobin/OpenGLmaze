@@ -36,6 +36,7 @@ public class Main {
         // Main game loop
         Game.init(window);
 
+
         // Draw in polygon mod
         //GL33.glPolygonMode(GL33.GL_FRONT_AND_BACK, GL33.GL_LINE);
         while (!GLFW.glfwWindowShouldClose(window)) {
